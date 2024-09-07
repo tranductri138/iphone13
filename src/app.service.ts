@@ -5,4 +5,13 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
+
+  createAnything() {
+    const cat = {
+      name: 'meo',
+      action: 'mew mew',
+    };
+
+    return cat;
+  }
 }
